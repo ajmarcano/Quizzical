@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    width: 100%;
+}
+
+.body {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blob1 {
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 200px;
+    height: 300px;
+    border-radius: 23% 50% 33% 53% / 24% 32% 57% 67% ;
+    background: #FFFAD1;
+    transform: rotate(-30deg)
+
+}
+
+.blob2 {
+    position: absolute;
+    bottom: -220px;
+    left: -120px;
+    width: 300px;
+    height: 300px;
+    border-radius: 23% 50% 33% 53% / 24% 32% 57% 67% ;
+    background: #DEEBF8;
+    transform: rotate(-20deg)
+
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    height: 100%;
+    width: 80%;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    color: #293264;
+    width: 100%;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 7px;
+    padding: 0px;
+}
+
+.description {
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #293264;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.quiz-start {
+    background: #4D5B9E;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 193px;
+    height: 52px;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.question-answer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.answers-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    width: 100%;
+    min-width: 20%;
+}
+
+.answer-buttons {
+    border: solid 1px #4D5B9E;
+    border-radius: 8px;
+    padding: 5px;
+    min-width: 100px;
+}
+
+.submit {
+    background: #4D5B9E;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.divisions {
+    border: solid 1px #DBDEF0;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
